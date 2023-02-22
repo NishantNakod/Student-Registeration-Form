@@ -1,0 +1,146 @@
+body {
+    background-image: url('Student_registration_image.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .container {
+    width: 150vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+    form {
+        text-align: center;
+        background-color: rgb(219, 217, 217);
+        padding: 30px;
+        width: 60%;
+        margin: auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: auto;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  .gender-options {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: left;
+    margin-bottom: 20px;;
+    }
+  
+input[type="radio"] {
+    margin: 0 10px;
+    }
+  body{
+    background-image: url('Student_registration_image.jpg');
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  form {
+    text-align: left;
+  }
+  
+  .form-group {
+    margin: 20px 0;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  h1{
+    text-align: center;
+  }
+  #Robo{
+    text-align: center;
+    font-size: 32px;
+    position: relative;
+    display: inline-block;
+    padding: 10px 5px;
+    border-bottom: solid black;
+    border-style: solid;
+    background: white;
+    padding: 3%;
+  }
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    }
+  
+  @media (max-width: 480px) {
+    .container {
+      background-image: url('./Student_registration_image_mobile.png');
+    }
+  }
+  
+  
+  
